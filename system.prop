@@ -50,11 +50,6 @@ persist.gralloc.cp.level3=1
 #
 persist.cne.feature=1
 
-#
-# system props for the dpm module
-#
-persist.dpm.feature=3
-
 #system props for the MM modules
 media.stagefright.enable-player=true
 media.stagefright.enable-http=true
