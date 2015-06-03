@@ -35,9 +35,8 @@ debug.sf.hwc.canUseABC=1
 # disable vsync for cpu render apps
 debug.cpurend.vsync=false
 
-# system props for widevine
-persist.gralloc.cp.level3=1
-
+#enable gpu perf hint
+sys.hwc.gpu_perf_mode=1
 #ro.hdmi.enable=true
 #tunnel.decode=true
 #tunnel.audiovideo.decode=true
