@@ -91,7 +91,7 @@ PRODUCT_COPY_FILES += \
 # line has to be in sync with build/target/product/core_base.mk
 endif # TARGET_USES_QCA_NFC
 
-PRODUCT_BOOT_JARS += qcmediaplayer \
+#PRODUCT_BOOT_JARS += qcmediaplayer \
                      WfdCommon \
                      oem-services \
                      qcom.fmradio \
