@@ -188,3 +188,6 @@ ro.core_ctl_max_cpu=4
 ro.sys.fw.bservice_enable=true
 ro.sys.fw.bservice_limit=5
 ro.sys.fw.bservice_age=5000
+
+#set device emmc size
+ro.emmc_size=8GB
