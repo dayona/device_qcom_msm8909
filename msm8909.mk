@@ -97,7 +97,9 @@ endif # TARGET_USES_QCA_NFC
                      qcom.fmradio \
                      org.codeaurora.Performance \
                      vcard \
-                     tcmiface
+
+PRODUCT_BOOT_JARS += tcmiface
+PRODUCT_BOOT_JARS += com.qti.dpmframework
 
 # Listen configuration file
 PRODUCT_COPY_FILES += \
