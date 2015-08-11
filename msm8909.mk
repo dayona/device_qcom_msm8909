@@ -94,7 +94,11 @@ endif # TARGET_USES_QCA_NFC
 PRODUCT_BOOT_JARS += qcom.fmradio \
 
 PRODUCT_BOOT_JARS += tcmiface
+
+ifneq ($(strip $(QCPATH)),)
 PRODUCT_BOOT_JARS += com.qti.dpmframework
+PRODUCT_BOOT_JARS += dpmapi
+endif
 
 # Listen configuration file
 PRODUCT_COPY_FILES += \
