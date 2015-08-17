@@ -25,6 +25,7 @@ debug.composition.type=dyn
 debug.hwc.dynThreshold=2.5
 debug.mdpcomp.logs=0
 dalvik.vm.heapsize=36m
+dalvik.vm.zygotemaxfailedboots=5
 dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 
@@ -32,8 +33,6 @@ persist.demo.hdmirotationlock=false
 debug.sf.swaprect=1
 #enable app buffer composition
 debug.sf.hwc.canUseABC=1
-# disable vsync for cpu render apps
-debug.cpurend.vsync=false
 
 #enable gpu perf hint
 sys.hwc.gpu_perf_mode=1
@@ -188,3 +187,6 @@ ro.core_ctl_max_cpu=4
 ro.sys.fw.bservice_enable=true
 ro.sys.fw.bservice_limit=5
 ro.sys.fw.bservice_age=5000
+
+#set device emmc size
+ro.emmc_size=8GB
