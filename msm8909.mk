@@ -1,9 +1,6 @@
 DEVICE_PACKAGE_OVERLAYS := device/qcom/msm8909/overlay
 
 TARGET_USES_QCOM_BSP := true
-ifeq ($(TARGET_PRODUCT),msm8909)
-TARGET_USES_QCA_NFC := true
-endif
 ifeq ($(TARGET_USES_QCOM_BSP), true)
 # Add QC Video Enhancements flag
 TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
@@ -50,46 +47,6 @@ PRODUCT_COPY_FILES += \
     device/qcom/msm8909/mixer_paths_qrd_skut.xml:system/etc/mixer_paths_qrd_skut.xml \
     device/qcom/msm8909/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
     device/qcom/msm8909/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml
-
-# NFC packages
-ifeq ($(TARGET_USES_QCA_NFC),true)
-NFC_D := true
-
-ifeq ($(NFC_D), true)
-    PRODUCT_PACKAGES += \
-        libnfcD-nci \
-        libnfcD_nci_jni \
-        nfc_nci.msm8916 \
-        NfcDNci \
-        Tag \
-        com.android.nfc_extras \
-        com.android.nfc.helper \
-        SmartcardService \
-        org.simalliance.openmobileapi \
-        org.simalliance.openmobileapi.xml \
-        libassd
-else
-    PRODUCT_PACKAGES += \
-    libnfc-nci \
-    libnfc_nci_jni \
-    nfc_nci.msm8916 \
-    NfcNci \
-    Tag \
-    com.android.nfc_extras
-endif
-
-# file that declares the MIFARE NFC constant
-# Commands to migrate prefs from com.android.nfc3 to com.android.nfc
-# NFC access control + feature files + configuration
-PRODUCT_COPY_FILES += \
-        packages/apps/Nfc/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt \
-        frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
-        frameworks/native/data/etc/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
-        frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
-        frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
-# Enable NFC Forum testing by temporarily changing the PRODUCT_BOOT_JARS
-# line has to be in sync with build/target/product/core_base.mk
-endif # TARGET_USES_QCA_NFC
 
 PRODUCT_BOOT_JARS += qcom.fmradio \
 
