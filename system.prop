@@ -176,6 +176,9 @@ ro.sys.fw.trim_empty_percent=100
 ro.sys.fw.trim_cache_percent=100
 ro.sys.fw.trim_enable_memory=1073741824
 
+#Enable Delay service restart
+ro.am.reschedule_service=true
+
 # set cutoff voltage to 3200mV
 ro.cutoff_voltage_mv=3200
 
