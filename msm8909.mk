@@ -98,6 +98,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     wpa_supplicant_overlay.conf \
     p2p_supplicant_overlay.conf
+
+# MIDI feature
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.midi.xml:system/etc/permissions/android.software.midi.xml
+
 #ANT+ stack
 PRODUCT_PACKAGES += \
 AntHalService \
