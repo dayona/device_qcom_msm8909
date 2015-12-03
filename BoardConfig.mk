@@ -136,3 +136,6 @@ TARGET_HW_DISK_ENCRYPTION := true
 USE_SENSOR_MULTI_HAL := true
 
 FEATURE_QCRIL_UIM_SAP_SERVER_MODE := true
+
+# Control flag between KM versions
+TARGET_HW_KEYMASTER_V03 := true
