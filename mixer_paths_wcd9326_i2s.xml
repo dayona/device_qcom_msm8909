@@ -1554,12 +1554,6 @@
         <path name="dmic3" />
     </path>
 
-
-    <path name="speaker-mic-sbc">
-        <path name="adc5" />
-        <ctl name="ADC5 Volume" value="12" />
-    </path>
-
     <path name="speaker-protected">
         <ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
         <ctl name="SLIM_0_RX Channels" value="One" />
@@ -1581,10 +1575,6 @@
 
     <path name="handset-mic">
         <path name="dmic1" />
-    </path>
-
-    <path name="handset-mic-db">
-        <path name="adc6" />
     </path>
 
     <path name="headphones">
