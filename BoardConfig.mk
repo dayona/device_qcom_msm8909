@@ -139,3 +139,5 @@ FEATURE_QCRIL_UIM_SAP_SERVER_MODE := true
 
 # Control flag between KM versions
 TARGET_HW_KEYMASTER_V03 := true
+
+BOARD_HAL_STATIC_LIBRARIES := libhealthd.msm
