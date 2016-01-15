@@ -50,3 +50,11 @@ service recoverAppData /system/bin/sh /system/vendor/bin/recoverAppData.sh
     seclabel u:r:backup_service:s0
     disabled
     oneshot
+
+#add poweroffhandler
+service poweroffhandler /system/bin/poweroffhandler
+    class core
+    user media
+    group graphics audio
+    disabled
+    oneshot
