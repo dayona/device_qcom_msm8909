@@ -25,6 +25,9 @@ TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-
 
+TARGET_USES_AOSP := true
+USE_CLANG_PLATFORM_BUILD := true
+
 BOARD_USES_GENERIC_AUDIO := true
 USE_CAMERA_STUB := true
 
@@ -90,13 +93,12 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_PERSISTIMAGE_FILE_SYSTEM_TYPE := ext4
 
-BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk
-BOARD_KERNEL_SEPARATED_DT := true
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk androidboot.selinux=permissive
 
 BOARD_EGL_CFG := device/qcom/msm8909/egl.cfg
 
-BOARD_BOOTIMAGE_PARTITION_SIZE := 0x01000000
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01000000
+BOARD_BOOTIMAGE_PARTITION_SIZE := 0x02000000
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x02000000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1288491008
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 1860632576
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
@@ -121,19 +123,19 @@ TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 #Add support for firmare upgrade on msm8909
 HAVE_SYNAPTICS_I2C_RMI4_FW_UPGRADE := true
 
-TARGET_LDPRELOAD := libNimsWrap.so
+#TARGET_LDPRELOAD := libNimsWrap.so
 
 #Enable peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
 #Use dlmalloc instead of jemalloc for mallocs
-MALLOC_IMPL := dlmalloc
+#MALLOC_IMPL := dlmalloc
 
 #Enable HW based full disk encryption
-TARGET_HW_DISK_ENCRYPTION := true
+#TARGET_HW_DISK_ENCRYPTION := true
 
 # Enable sensor multi HAL
-USE_SENSOR_MULTI_HAL := true
+#USE_SENSOR_MULTI_HAL := true
 
 FEATURE_QCRIL_UIM_SAP_SERVER_MODE := true
 
@@ -141,3 +143,9 @@ FEATURE_QCRIL_UIM_SAP_SERVER_MODE := true
 TARGET_HW_KEYMASTER_V03 := true
 
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.msm
+
+WITH_DEXPREOPT := false
+ifneq ($(TARGET_BUILD_VARIANT),user)
+  # Retain classes.dex in APK's for non-user builds
+  DEX_PREOPT_DEFAULT := nostripping
+endif

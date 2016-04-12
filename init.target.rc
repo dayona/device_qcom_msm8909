@@ -34,8 +34,8 @@ on early-init
     mkdir /system 0777 root root
     symlink /data/tombstones /tombstones
 
-on post-fs
-    export LD_PRELOAD libNimsWrap.so
+#on post-fs
+#    export LD_PRELOAD libNimsWrap.so
 
 on fs
     wait /dev/block/bootdevice
@@ -146,11 +146,11 @@ on boot
     start rmt_storage
     insmod /system/lib/modules/adsprpc.ko
 
-service wcnss-service /system/bin/wcnss_service
-    class main
-    user system
-    group system wifi radio
-    oneshot
+#service wcnss-service /system/bin/wcnss_service
+#    class main
+#    user system
+#    group system wifi radio
+#    oneshot
 
 service ppd /system/bin/mm-pp-daemon
     class late_start

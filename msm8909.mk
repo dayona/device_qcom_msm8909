@@ -1,9 +1,9 @@
-DEVICE_PACKAGE_OVERLAYS := device/qcom/msm8909/overlay
+#DEVICE_PACKAGE_OVERLAYS := device/qcom/msm8909/overlay
 
 TARGET_USES_QCOM_BSP := true
 ifeq ($(TARGET_USES_QCOM_BSP), true)
 # Add QC Video Enhancements flag
-TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
+#TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 endif #TARGET_USES_QCOM_BSP
 
 
@@ -54,16 +54,16 @@ PRODUCT_COPY_FILES += \
     device/qcom/msm8909/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
     device/qcom/msm8909/audio_platform_info.xml:system/etc/audio_platform_info.xml
 
-PRODUCT_BOOT_JARS += qcom.fmradio \
+#PRODUCT_BOOT_JARS += qcom.fmradio \
 
-PRODUCT_BOOT_JARS += tcmiface
-PRODUCT_BOOT_JARS += qcmediaplayer
+#PRODUCT_BOOT_JARS += tcmiface
+#PRODUCT_BOOT_JARS += qcmediaplayer
 
 ifneq ($(strip $(QCPATH)),)
-PRODUCT_BOOT_JARS += oem-services
-PRODUCT_BOOT_JARS += com.qti.dpmframework
-PRODUCT_BOOT_JARS += dpmapi
-PRODUCT_BOOT_JARS += com.qti.location.sdk
+#PRODUCT_BOOT_JARS += oem-services
+#PRODUCT_BOOT_JARS += com.qti.dpmframework
+#PRODUCT_BOOT_JARS += dpmapi
+#PRODUCT_BOOT_JARS += com.qti.location.sdk
 endif
 
 # Listen configuration file
