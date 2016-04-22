@@ -31,6 +31,7 @@ USE_CLANG_PLATFORM_BUILD := true
 BOARD_USES_GENERIC_AUDIO := true
 USE_CAMERA_STUB := true
 
+TARGET_DISABLE_DASH := true
 -include $(QCPATH)/common/msm8909/BoardConfigVendor.mk
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 
