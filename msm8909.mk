@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     device/qcom/msm8909/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
     device/qcom/msm8909/audio_platform_info.xml:system/etc/audio_platform_info.xml
 
-#PRODUCT_BOOT_JARS += qcom.fmradio \
+PRODUCT_BOOT_JARS += qcom.fmradio
 
 #PRODUCT_BOOT_JARS += tcmiface
 #PRODUCT_BOOT_JARS += qcmediaplayer
