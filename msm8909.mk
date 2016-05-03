@@ -81,6 +81,8 @@ PRODUCT_COPY_FILES += \
 #fstab.qcom
 PRODUCT_PACKAGES += fstab.qcom
 
+-include $(TOPDIR)hardware/qcom/audio/configs/msm8909/msm8909.mk
+
 PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcompostprocbundle \
