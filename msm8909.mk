@@ -1,4 +1,4 @@
-#DEVICE_PACKAGE_OVERLAYS := device/qcom/msm8909/overlay
+DEVICE_PACKAGE_OVERLAYS := device/qcom/msm8909/overlay
 
 TARGET_USES_QCOM_BSP := true
 ifeq ($(TARGET_USES_QCOM_BSP), true)
