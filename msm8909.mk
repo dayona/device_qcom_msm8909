@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_BOOT_JARS += qcom.fmradio
 
-#PRODUCT_BOOT_JARS += tcmiface
+PRODUCT_BOOT_JARS += tcmiface
 #PRODUCT_BOOT_JARS += qcmediaplayer
 
 ifneq ($(strip $(QCPATH)),)
