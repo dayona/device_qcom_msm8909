@@ -100,11 +100,11 @@
             <Limit name="measured-frame-rate-1280x720" range="63-63" />
             <Limit name="measured-frame-rate-1920x1080" range="47-47" />
         </MediaCodec>
-        <MediaCodec name="OMX.ittiam.video.decoder.h263" type="video/3gpp" update="true">
+        <MediaCodec name="OMX.qti.video.decoder.h263sw" type="video/3gpp" update="true">
             <Limit name="measured-frame-rate-176x144" range="760-760" />
             <Limit name="measured-frame-rate-352x288" range="560-560" />
         </MediaCodec>
-        <MediaCodec name="OMX.ittiam.video.decoder.mpeg4" update="true">
+        <MediaCodec name="OMX.qti.video.decoder.mpeg4sw" update="true">
             <Type name="video/mp4v-es">
                 <Limit name="measured-frame-rate-480x360" range="482-482" />
             </Type>
