@@ -133,7 +133,7 @@ TARGET_PER_MGR_ENABLED := true
 MALLOC_SVELTE := true
 
 #Enable HW based full disk encryption
-#TARGET_HW_DISK_ENCRYPTION := true
+TARGET_HW_DISK_ENCRYPTION := true
 
 # Enable sensor multi HAL
 #USE_SENSOR_MULTI_HAL := true
