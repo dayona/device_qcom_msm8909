@@ -123,8 +123,6 @@ TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 #Add support for firmare upgrade on msm8909
 HAVE_SYNAPTICS_I2C_RMI4_FW_UPGRADE := true
 
-#TARGET_LDPRELOAD := libNimsWrap.so
-
 #Enable peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
