@@ -130,6 +130,7 @@ TARGET_PER_MGR_ENABLED := true
 
 #Use dlmalloc instead of jemalloc for mallocs
 #MALLOC_IMPL := dlmalloc
+MALLOC_SVELTE := true
 
 #Enable HW based full disk encryption
 #TARGET_HW_DISK_ENCRYPTION := true
