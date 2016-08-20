@@ -11,6 +11,10 @@ endif #TARGET_USES_QCOM_BSP
 #QTIC flag
 -include $(QCPATH)/common/config/qtic-config.mk
 
+#for android_filesystem_config.h
+PRODUCT_PACKAGES += \
+    fs_config_files
+
 # Enable features in video HAL that can compile only on this platform
 TARGET_USES_MEDIA_EXTENSIONS := true
 
