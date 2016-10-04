@@ -34,6 +34,7 @@
             <Limit name="blocks-per-second" min="1" max="108000" />
             <Limit name="bitrate" range="1-14000000" />
             <Limit name="concurrent-instances" max="8" />
+            <Feature name="intra-refresh" />
         </MediaCodec>
         <!-- Video Software  -->
         <MediaCodec name="OMX.qcom.video.encoder.mpeg4sw" type="video/mp4v-es" >
