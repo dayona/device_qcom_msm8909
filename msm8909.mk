@@ -116,16 +116,14 @@ antradio_app
 
 # Defined the locales
 PRODUCT_LOCALES += th_TH vi_VN tl_PH hi_IN ar_EG ru_RU tr_TR pt_BR bn_IN mr_IN ta_IN te_IN zh_HK \
-        in_ID my_MM km_KH sw_KE uk_UA pl_PL sr_RS sl_SI fa_IR kn_IN ml_IN ur_IN gu_IN or_IN en_ZA
+        in_ID my_MM km_KH sw_KE uk_UA pl_PL sr_RS sl_SI fa_IR kn_IN ml_IN ur_IN gu_IN or_IN en_ZA zh_CN
 
 # When can normal compile this module,  need module owner enable below commands
 # Add the overlay path
-#PRODUCT_PACKAGE_OVERLAYS := $(QCPATH)/qrdplus/Extension/res \
-#       $(PRODUCT_PACKAGE_OVERLAYS)
-# $(QCPATH)/qrdplus/globalization/multi-language/res-overlay \
-
 PRODUCT_PACKAGE_OVERLAYS := $(QCPATH)/qrdplus/Extension/res \
-        $(PRODUCT_PACKAGE_OVERLAYS)
+       $(QCPATH)/qrdplus/globalization/multi-language/res-overlay \
+       $(PRODUCT_PACKAGE_OVERLAYS)
+
 
 # Sensor HAL conf file
 PRODUCT_COPY_FILES += \
