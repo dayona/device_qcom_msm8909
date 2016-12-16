@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016, The Linux Foundation. All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are
+    met:
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+        * Redistributions in binary form must reproduce the above
+          copyright notice, this list of conditions and the following
+          disclaimer in the documentation and/or other materials provided
+          with the distribution.
+        * Neither the name of The Linux Foundation nor the names of its
+          contributors may be used to endorse or promote products derived
+          from this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+    ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+    BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+    BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kg_subsidy_title_locked">"آلہ مقفل ہو گیا"</string>
+    <string name="kg_subsidy_title_unlock_progress_dialog">"‎آلے کو غیر مقفل کرنا"</string>
+    <string name="kg_subsidy_content_locked">"براہ کرم آلہ غیر مقفل کرنے کے لیے ایک درست Jio SIM داخل کریں۔‎\n\nیہ یقینی بنانے کے بعد کہ ڈیٹا نیٹ ورک (سیلولر یا ‎Wi-Fi‎) سے کنیکشن فعال ہے غیر مقفل کرنے کے لیے تھپتھپائیں۔"</string>
+    <string name="kg_subsidy_title_activation">"Jio SIM فعال کریں"</string>
+    <string name="kg_subsidy_content_activation">"براہ کرم ٹیلیفون کے ذریعہ توثیق کے لیے فعال کریں بٹن پر تھپتھپائیں۔ اگر آپ نے پہلے ہی ٹیلیفون کے ذریعہ توثیق کر دی ہے تو براہ کرم غیر مقفل کریں بٹن پر تھپتھپائیں۔"</string>
+    <string name="kg_subsidy_title_progress_activating">"Jio SIM فعال کرنا"</string>
+    <string name="kg_subsidy_content_progress_server">"براہ کرم انتظار کریں‎&#8230; \n\n‎ سرور سے چیک کیا جا رہا ہے۔"</string>
+    <string name="kg_subsidy_content_pin_locked">"غیر مقفل کرنے یا ایک درست Jio SIM داخل کرنے کے لیے کوڈ حاصل کرنے کے لیے براہ کرم کسٹمر کیئر کو کال کريں"</string>
+    <plurals name="kg_subsidy_wrong_pin">
+        <item quantity="one">"‎غلط کوڈ۔ ‎\nآپ کے پاس <xliff:g id="number">%d</xliff:g> کوشش بچی ہے۔"</item>
+        <item quantity="other">"غلط کوڈ۔ \nآپ کے پاس <xliff:g id="number">%d</xliff:g> کوششیں بچی ہیں۔"</item>
+    </plurals>
+    <string name="kg_subsidy_too_many_failed_attempts_countdown">"‎‎زیادہ سے زیادہ کوششیں پوری ہو گئیں۔ ‎\n<xliff:g id="number">%d</xliff:g>‎ منٹ کے بعد دوبارہ کوشش کریں۔"</string>
+    <string name="kg_subsidy_too_many_failed_attempts_countdown_sec">"زیادہ سے زیادہ کوششیں پوری ہو گئیں۔ \n<xliff:g id="number">%d</xliff:g> سیکنڈ کے بعد دوبارہ کوشش کریں۔"</string>
+    <string name="kg_button_unlock">"غیر مقفل کریں"</string>
+    <string name="kg_button_activate">"فعال کریں"</string>
+    <string name="kg_subsidy_wifi">"WIFI"</string>
+    <string name="unlock_toast">"آلہ غیر مقفل ہو گیا"</string>
+    <string name="kg_pin_unlock_progress_dialog">"آلہ غیر مقفل کرنا‎\u2026"</string>
+    <string name="kg_subsidy_setup_wifi">"‎ وائی فائی ترتیب دیں "</string>
+    <string name="kg_dismiss_button_description">"لاک اسکرین مسترد کریں"</string>
+</resources>

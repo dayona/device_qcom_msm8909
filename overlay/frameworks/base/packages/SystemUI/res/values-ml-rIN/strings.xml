@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016, The Linux Foundation. All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are
+    met:
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+        * Redistributions in binary form must reproduce the above
+          copyright notice, this list of conditions and the following
+          disclaimer in the documentation and/or other materials provided
+          with the distribution.
+        * Neither the name of The Linux Foundation nor the names of its
+          contributors may be used to endorse or promote products derived
+          from this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+    ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+    BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+    BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kg_subsidy_title_locked">"ഉപകരണം ലോക്കുചെയ്തു"</string>
+    <string name="kg_subsidy_title_unlock_progress_dialog">"ഉപകരണം അൺലോക്ക് ചെയ്യൽ"</string>
+    <string name="kg_subsidy_content_locked">
+        "ഉപകരണം അൺലോക്ക് ചെയ്യാൻ ഒരു സാധുതയുള്ള Jio SIM ഇടുക. ഡാറ്റ നെറ്റ്‌വർക്കിലേക്കുള്ള കണക്ഷൻ (സെല്ലുലാർ അല്ലെങ്കിൽ വൈ-ഫൈ) സജീവമാണെന്ന് ഉറപ്പാക്കിയ ശേഷം അൺലോക്ക് ചെയ്യാൻ സ്പർശിക്കുക."</string>
+    <string name="kg_subsidy_title_activation">"Jio SIM സജീവമാക്കുക"</string>
+    <string name="kg_subsidy_content_activation">
+        "ടെലി-വേരിഫൈ ചെയ്യാൻ 'സജീവമാക്കുക' ബട്ടണിൽ സ്പർശിക്കുക. നിങ്ങൾ ഇതിനകം ടെലി-വേരിഫൈ ചെയ്തിട്ടുണ്ടെങ്കിൽ, 'അൺലോക്ക്' ബട്ടൺ സ്പർശിക്കുക."</string>
+    <string name="kg_subsidy_title_progress_activating">"Jio SIM സജീവമാക്കുന്നു"</string>
+    <string name="kg_subsidy_content_progress_server">"കാത്തിരിക്കുക&#8230; \n\n സെർവറുമായി ബന്ധപ്പെട്ട് പരിശോധിക്കുന്നു."</string>
+    <string name="kg_subsidy_content_pin_locked">"അൺലോക്ക് ചെയ്യാനുള്ള കോഡ് ലഭിക്കാൻ കസ്റ്റമർ കെയറിൽ വിളിക്കുക അല്ലെങ്കിൽ സാധുതയുള്ള Jio SIM ഇടുക"</string>
+    <plurals name="kg_subsidy_wrong_pin">
+        <item quantity="one">"അസാധുവായ കോഡ്. \nനിങ്ങൾക്ക് <xliff:g id="number">%d</xliff:g> ശ്രമം ശേഷിക്കുന്നു."</item>
+        <item quantity="other">"അസാധുവായ കോഡ്. \nനിങ്ങൾക്ക് <xliff:g id="number">%d</xliff:g> ശ്രമം ശേഷിക്കുന്നു."</item>
+    </plurals>
+    <string name="kg_subsidy_too_many_failed_attempts_countdown">"പരമാവധി ശ്രമങ്ങളിലെത്തി. \n <xliff:g id="number">%d</xliff:g> മിനിറ്റ് കഴിഞ്ഞ് വീണ്ടും ശ്രമിക്കുക."</string>
+    <string name="kg_subsidy_too_many_failed_attempts_countdown_sec">"പരമാവധി ശ്രമങ്ങളിലെത്തി. \n<xliff:g id="number">%d</xliff:g> സെക്കൻഡ് കഴിഞ്ഞ് വീണ്ടും ശ്രമിക്കുക."</string>
+    <string name="kg_button_unlock">"അൺലോക്ക് ചെയ്യുക"</string>
+    <string name="kg_button_activate">"സജീവമാക്കുക"</string>
+    <string name="kg_subsidy_wifi">"വൈഫൈ"</string>
+    <string name="unlock_toast">"ഉപകരണം അൺലോക്ക് ചെയ്തു"</string>
+    <string name="kg_pin_unlock_progress_dialog">"ഉപകരണം അൺലോക്ക് ചെയ്യുന്നു\u2026"</string>
+    <string name="kg_subsidy_setup_wifi">"വൈ-ഫൈ സജ്ജമാക്കുക"</string>
+    <string name="kg_dismiss_button_description">"ലോക്ക് സ്ക്രീൻ ഡിസ്‌മിസ് ചെയ്യുക"</string>
+</resources>

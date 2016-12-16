@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016, The Linux Foundation. All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are
+    met:
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+        * Redistributions in binary form must reproduce the above
+          copyright notice, this list of conditions and the following
+          disclaimer in the documentation and/or other materials provided
+          with the distribution.
+        * Neither the name of The Linux Foundation nor the names of its
+          contributors may be used to endorse or promote products derived
+          from this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+    ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+    BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+    BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kg_subsidy_title_locked">آلہ لاک کرتھ </string>
+    <string name="kg_subsidy_title_unlock_progress_dialog">قلف مژراونچ  ڈیوائس</string>
+    <string name="kg_subsidy_content_locked">مہربانی کرتھ لاگیو اکھ سہی جیو SIM آلہ انلاک کرنہ خاطر .\n\n زیر انلاک کرنہ خاطر  یکانی بانیو زی  ڈیٹا نیٹ ورک چھ جوڈتھ (سیلولر یا وائی-فائی)چھ چالو </string>
+    <string name="kg_subsidy_title_activation">چالو کرو جیو SIM</string>
+    <string name="kg_subsidy_content_activation">مہربانی کرتھ کرو زیر چالو بٹنس ٹیلی-دریافت خاطر. اگر تھے گوڈے چھو ٹیلی دریافت، مہربانی کرتھ کرو زیر انلاک باتوں.</string>
+    <string name="kg_subsidy_title_progress_activating">چالو کرو جیو SIM</string>
+    <string name="kg_subsidy_content_progress_server">مہربانی کرتھ کرو انتظار &#8230; \n\n سرور کران چیک.</string>
+    <string name="kg_subsidy_content_pin_locked">مہربانی کرتھ کرو کال صارف خدماتان کوڈ راٹ نہ خاطر تاکی انلاک گاسی یا لاگو اکھ سہی جیو SIM</string>
+    <plurals name="kg_subsidy_wrong_pin">
+        <item quantity="one">انویلڈ کوڈ. \nتوہہِ چھیو <xliff:g id="number">%d</xliff:g> کوششہِ باقی.</item>
+        <item quantity="other">انویلڈ کوڈ. \nتوہہِ چھیو <xliff:g id="number">%d</xliff:g> کوششہِ باقی.</item>
+    </plurals>
+    <string name="kg_subsidy_too_many_failed_attempts_countdown">زیادہ کھوتہ زیادہ کوششہِ حدس ووتمت. \nبیہ کریو کوشش یمہ پتہ <xliff:g id="number">%d</xliff:g>منٹ.</string>
+    <string name="kg_subsidy_too_many_failed_attempts_countdown_sec">زیادہ کھوتہ زیادہ کوششہ حدس ووتمت. \nبیہ کریو کوشش یمہ پتہ <xliff:g id="number">%d</xliff:g>سیکنڈ.</string>
+    <string name="kg_button_unlock">انلاک </string>
+    <string name="kg_button_activate">چالو </string>
+    <string name="kg_subsidy_wifi">وائی فائی </string>
+    <string name="unlock_toast">انلاک گومت آلہ </string>
+    <string name="kg_pin_unlock_progress_dialog">انلاک گاسان آلہ \u2026</string>
+    <string name="kg_subsidy_setup_wifi">وائی فائی کریو سیٹ اپ</string>
+    <string name="kg_dismiss_button_description">لاك سكرین كریو خارج</string>
+</resources>
+
