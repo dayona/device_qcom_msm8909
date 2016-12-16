@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016, The Linux Foundation. All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are
+    met:
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+        * Redistributions in binary form must reproduce the above
+          copyright notice, this list of conditions and the following
+          disclaimer in the documentation and/or other materials provided
+          with the distribution.
+        * Neither the name of The Linux Foundation nor the names of its
+          contributors may be used to endorse or promote products derived
+          from this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+    ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+    BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+    BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kg_subsidy_title_locked">ଡିଭାଇସ୍‌ ଲକ୍‌ ହୋଇଛି</string>
+    <string name="kg_subsidy_title_unlock_progress_dialog">ଡିଭାଇସ୍‌ ଅନଲକ୍‌ ହେଉଛି</string>
+    <string name="kg_subsidy_content_locked">ଡିଭଇସ୍‌ ଅନଲକ୍‌ କରିବାକୁ ଦୟାକରି ଏକ ବୈଧ Jio SIM ସନ୍ନିବେଶ କରନ୍ତୁ।\n\nନିଶ୍ଚିତ କରନ୍ତୁ ଯେ ଡାଟା ନେଟୱାର୍କ୍‌ ସଂଯୋଗ (ସେଲୁଲାର୍‌ କିମ୍ୱା Wi-Fi) ସକ୍ରିୟ ହୁଏ ଯାହା ସୃଷ୍ଟି ପରେ ଅନଲକ୍ କରିବାକୁ ଟ୍ୟାପ୍‌ କରନ୍ତୁ।</string>
+    <string name="kg_subsidy_title_activation">Jio SIM ସକ୍ରିୟ</string>
+    <string name="kg_subsidy_content_activation">ଦୟାକରି ଟେଲି-ଯାଞ୍ଚକରଣ ପାଇଁ ସକ୍ରିୟ ବଟନ୍‌ ଟ୍ୟାପ୍‌ କରନ୍ତୁ। ଯଦି ଆପଣ ପୂର୍ବରୁ ଟେଲି-ଯାଞ୍ଚକରଣ ହୋଇଛି, ଦୟାକ୍ରି ଅନଲକ୍‌ ବଟନ୍‌ ଟ୍ୟାପ୍‌ କରନ୍ତୁ।</string>
+    <string name="kg_subsidy_title_progress_activating">Jio SIM ସକ୍ରିୟ ହେଉଛି</string>
+    <string name="kg_subsidy_content_progress_server">ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ&#8230; \n\n ସର୍ଭର୍‌ ସହ ଯାଞ୍ଚ ହେଉଛି।</string>
+    <string name="kg_subsidy_content_pin_locked">ଅନଲକ୍‌ କିମ୍ୱା ଏକ ବୈଧ Jio SIM ସନ୍ନିବେଶ କରିବାକୁ କୋଡ୍‍ ପ୍ରାପ୍ତ କରିବାକୁ ଦୟାକରି ଗ୍ରାହକ ସେବାକୁ କଲ୍‌ କରନ୍ତୁ</string>
+    <plurals name="kg_subsidy_wrong_pin">
+        <item quantity="one">ଅବୈଧ କୋଡ୍‍।\nଆପଣ <xliff:g id="number">%d</xliff:g> ଟି ଉଦ୍ୟାମ ବାକି ଅଛି।</item>
+        <item quantity="other">ଅବୈଧ କୋଡ୍‍। \nଆପଣ <xliff:g id="number">%d</xliff:g> ଟି ଉଦ୍ୟାମ ବାକି ଅଛି।</item>
+    </plurals>
+    <string name="kg_subsidy_too_many_failed_attempts_countdown">ସର୍ବାଧିକ ଉଦ୍ୟାମରେ ପହଞ୍ଚିଛି।\n<xliff:g id="number">%d</xliff:g> ମିନିଟ୍‌ ପରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="kg_subsidy_too_many_failed_attempts_countdown_sec">ସର୍ବାଧିକ ଉଦ୍ୟାମରେ ପହଞ୍ଚିଛି।\n<xliff:g id="number">%d</xliff:g> ସେକେଣ୍ଡ ପରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="kg_button_unlock">ଅନଲକ୍‌</string>
+    <string name="kg_button_activate">ସକ୍ରିୟ</string>
+    <string name="kg_subsidy_wifi">WIFI</string>
+    <string name="unlock_toast">ଡିଭାଇସ୍‌ ଅନଲକ୍‌ ହୋଇଛି</string>
+    <string name="kg_pin_unlock_progress_dialog">ଡିଭାଇସ୍‌ ଅନଲକ୍‌ ହେଉଛି\u2026</string>
+    <string name="kg_subsidy_setup_wifi">ୱାଇ-ଫାଇ ସେଟ୍‌ ଅପ୍‌ କରନ୍ତୁ</string>
+    <string name="kg_dismiss_button_description">ଲକ୍‌ ସ୍କ୍ରିନ୍‌ ପ୍ରତ୍ୟାଖନ କରନ୍ତୁ</string>
+</resources>
