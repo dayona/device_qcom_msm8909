@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016, The Linux Foundation. All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are
+    met:
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+        * Redistributions in binary form must reproduce the above
+          copyright notice, this list of conditions and the following
+          disclaimer in the documentation and/or other materials provided
+          with the distribution.
+        * Neither the name of The Linux Foundation nor the names of its
+          contributors may be used to endorse or promote products derived
+          from this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+    ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+    BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+    BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="kg_subsidy_title_locked">சாதனம் பூட்டப்பட்டது</string>
+    <string name="kg_subsidy_title_unlock_progress_dialog">சாதனத்தைப் பூட்டுநீக்குகிறது</string>
+    <string name="kg_subsidy_content_locked">சாதனத்தைப் பூட்டுநீக்க ஒரு சரியான Jio சிம்மை செருகவும்.\n\nதரவு நெட்வொர்க்(செல்லுலார் அல்லது வைஃபை) செயலிலுள்ளதா என்பதை உறுதிப்படுத்திய பின் பூட்டுநீக்க தட்டவும்.</string>
+    <string name="kg_subsidy_title_activation">Jio சிம்மை செயல்படுத்துக</string>
+    <string name="kg_subsidy_content_activation">டெலி-சரிபார்த்தலுக்கு செயல்படுத்துக பட்டனைத் தட்டவும். ஏற்கனவே டெலி-சரிபார்த்தல் செய்திருந்தால், பூட்டுநீக்கு பட்டனைத் தட்டவும்.</string>
+    <string name="kg_subsidy_title_progress_activating">Jio சிம்மை செயல்படுத்துகிறது</string>
+    <string name="kg_subsidy_content_progress_server">காத்திருக்கவும்&#8230; \n\n சர்வருடன் சோதிக்கிறது.</string>
+    <string name="kg_subsidy_content_pin_locked">பூட்டு நீக்குவதற்கான குறியீட்டைப் பெற வாடிக்கையாளர் சேவை மையத்திற்கு அழைக்கவும் அல்லது ஒரு சரியான Jio சிம்மை செருகவும்</string>
+    <plurals name="kg_subsidy_wrong_pin">
+        <item quantity="one">தவறான குறியீடு. \nஉங்களுக்கு <xliff:g id="number">%d</xliff:g> முயற்சி மீதமுள்ளது.</item>
+        <item quantity="other">தவறான குறியீடு. \nஉங்களுக்கு <xliff:g id="number">%d</xliff:g> முயற்சிகள் மீதமுள்ளன.</item>
+    </plurals>
+    <string name="kg_subsidy_too_many_failed_attempts_countdown">அதிகபட்ச முயற்சிகளை அடைந்தது. \n<xliff:g id="number">%d</xliff:g> நிமிடங்களுக்குப் பிறகு மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="kg_subsidy_too_many_failed_attempts_countdown_sec">அதிகபட்ச முயற்சிகளை அடைந்தது. \n<xliff:g id="number">%d</xliff:g> விநாடிகளுக்குப் பிறகு மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="kg_button_unlock">பூட்டுநீக்கு</string>
+    <string name="kg_button_activate">செயல்படுத்து</string>
+    <string name="kg_subsidy_wifi">வைஃபை</string>
+    <string name="unlock_toast">சாதனம் பூட்டுநீக்கப்பட்டது</string>
+    <string name="kg_pin_unlock_progress_dialog">சாதனத்தைப் பூட்டுநீக்குகிறது\u2026</string>
+    <string name="kg_subsidy_setup_wifi">வைஃபை அமைக்கவும்</string>
+    <string name="kg_dismiss_button_description">பூட்டுத் திரையை நிராகரிக்கவும்</string>
+</resources>
