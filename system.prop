@@ -136,6 +136,9 @@ ro.fm.transmitter=false
 #enable dsp gapless mode by default
 audio.offload.gapless.enabled=true
 
+#multiple compress record
+audio.record.multiple.enabled=true
+
 #Audio voice concurrency related flags
 voice.playback.conc.disabled=true
 voice.record.conc.disabled=true
