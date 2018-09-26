@@ -7,6 +7,7 @@ ifeq ($(TARGET_USES_QCOM_BSP), true)
 TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 endif #TARGET_USES_QCOM_BSP
 
+PLATFORM_SECURITY_PATCH := 2018-02-01
 
 #QTIC flag
 -include $(QCPATH)/common/config/qtic-config.mk
@@ -114,6 +115,10 @@ AntHalService \
 libantradio \
 antradio_app
 
+#Kunji test service
+PRODUCT_PACKAGES += \
+	TestService 
+	
 # Defined the locales
 PRODUCT_LOCALES += th_TH vi_VN tl_PH hi_IN ar_EG ru_RU tr_TR pt_BR bn_IN mr_IN ta_IN te_IN zh_HK \
         in_ID my_MM km_KH sw_KE uk_UA pl_PL sr_RS sl_SI fa_IR kn_IN ml_IN ur_IN gu_IN or_IN en_ZA zh_CN
