@@ -95,14 +95,14 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_PERSISTIMAGE_FILE_SYSTEM_TYPE := ext4
 
-BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk androidboot.selinux=permissive 
 
 BOARD_EGL_CFG := device/qcom/msm8909/egl.cfg
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x02000000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x02000000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1288491008
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 1659305984
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 5191482368 #1659305984
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
 BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 BOARD_OEMIMAGE_PARTITION_SIZE := 268435456
