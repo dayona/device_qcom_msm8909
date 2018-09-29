@@ -117,7 +117,8 @@ antradio_app
 
 #Kunji test service
 PRODUCT_PACKAGES += \
-	TestService 
+	TestService \
+	KSFE
 	
 # Defined the locales
 PRODUCT_LOCALES += th_TH vi_VN tl_PH hi_IN ar_EG ru_RU tr_TR pt_BR bn_IN mr_IN ta_IN te_IN zh_HK \
