@@ -133,3 +133,9 @@ PRODUCT_PACKAGE_OVERLAYS := $(QCPATH)/qrdplus/Extension/res \
 # Sensor HAL conf file
 PRODUCT_COPY_FILES += \
     device/qcom/msm8909/sensors/hals.conf:system/etc/sensors/hals.conf
+
+
+#including device related sepolicy
+BOARD_SEPOLICY_DIRS := \
+       $(BOARD_SEPOLICY_DIRS) \
+       device/qcom/msm8909/Sepolicy 
