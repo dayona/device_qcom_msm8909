@@ -20,6 +20,13 @@
 	package="com.vst.testService"
 	android:sharedUserId="android.uid.system">
 
+	<uses-permission android:name="android.permission.STATUS_BAR" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
+
+
 	<application
 		android:icon="@mipmap/ic_launcher"
 		android:allowBackup="true"
@@ -29,11 +36,12 @@
 		<activity android:name=".TestService"
 				  android:launchMode="singleTask"
 				  		>
-			<intent-filter>
+			<intent-filter android:priority="3">
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.LAUNCHER" />
 				<category android:name="android.intent.category.HOME"/>
 				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+
 			</intent-filter>
 		</activity>
 	</application>
