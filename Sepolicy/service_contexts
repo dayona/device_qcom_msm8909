@@ -1,2 +1,3 @@
 #TestService
 Test												  u:object_r:test_service:s0 
+Shift												  u:object_r:shift_service:s0
