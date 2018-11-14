@@ -121,7 +121,8 @@ antradio_app
 PRODUCT_PACKAGES += \
 	TestService \
 	KSFE \
-	ShiftCharService
+	ShiftCharService \
+	SerialChat2
 	
 # Defined the locales
 PRODUCT_LOCALES += th_TH vi_VN tl_PH hi_IN ar_EG ru_RU tr_TR pt_BR bn_IN mr_IN ta_IN te_IN zh_HK \
