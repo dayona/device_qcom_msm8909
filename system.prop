@@ -20,6 +20,7 @@ DEVICE_PROVISIONED=1
 # Set network mode to (T/L/G/W/1X/EVDO, T/G/W/L) for 7+5 mode device on DSDS mode
 #
 ro.telephony.default_network=22,20
+ro.telephony.default_cdma_sub=0
 
 debug.sf.hw=1
 debug.egl.hw=1
@@ -202,3 +203,5 @@ ro.sys.fw.bservice_age=5000
 
 #set device emmc size
 ro.emmc_size=8GB
+#add by cody for enable sim contacts
+persist.env.contacts.autosync =true
