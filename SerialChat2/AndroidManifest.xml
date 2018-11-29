@@ -18,12 +18,18 @@
         package="com.android.serialchat2"
         android:sharedUserId="android.uid.system">
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
     <uses-permission android:name="android.permission.SERIAL_PORT"/>
 
     <application android:label="Serial Chat">
-        <activity android:name="SerialChat2" android:label="Serial Chat">
-            <intent-filter>
+        <activity android:name="SerialChat2" android:label="Serial Chat"
+                                  android:launchMode="singleTask" >
+            <intent-filter  android:priority="3">
                 <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME"/> 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
