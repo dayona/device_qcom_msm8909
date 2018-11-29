@@ -203,5 +203,6 @@ ro.sys.fw.bservice_age=5000
 
 #set device emmc size
 ro.emmc_size=8GB
+
 #add by cody for enable sim contacts
 persist.env.contacts.autosync =true
