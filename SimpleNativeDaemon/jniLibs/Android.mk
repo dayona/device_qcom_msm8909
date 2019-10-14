@@ -1,0 +1,13 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmyLib
+
+LOCAL_SRC_FILES:= libmyLib.so
+LOCAL_REQUIRED_MODULES := libmyLib
+
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+
+include $(BUILD_PREBUILT)
+# include $(BUILD_SHARED_LIBRARY)

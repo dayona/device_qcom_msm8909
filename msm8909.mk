@@ -119,9 +119,13 @@ antradio_app
 
 #Kunji test service
 PRODUCT_PACKAGES += \
-	KSFE \
-	ShiftCharService \
-	SerialChat2
+SimpleNativeDaemon \
+mylogger 
+
+# PRODUCT_PACKAGES += \
+# 	KSFE \
+# 	ShiftCharService \
+# 	SerialChat2
 	#TestService 
 	
 # Defined the locales

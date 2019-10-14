@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimpleNativeDaemon</string>
+    <string name="test">Hello World</string>
+
+</resources>

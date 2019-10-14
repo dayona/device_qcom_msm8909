@@ -154,3 +154,6 @@ endif
 
 # enable IMS for this target
 TARGET_USES_IMS := true
+
+BOARD_SEPOLICY_DIRS += \
+Sepolicy
